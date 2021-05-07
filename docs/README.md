@@ -1,3 +1,3 @@
-# Today Hyunseok Learned..
+# 꾸준히
 
 매일 배운 걸 적어보자!
