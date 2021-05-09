@@ -39,6 +39,10 @@ module.exports = {
     // sidebar: "auto",
     sidebar: [
       {
+        title: "network",
+        children: ["network/hsts"],
+      },
+      {
         title: "vscode",
         children: ["vscode/i18n-plugin"],
       },
