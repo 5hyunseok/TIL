@@ -13,9 +13,9 @@ $ docker stats
 docker stats 를 이용하면
 
 ```shell
-CONTAINER ID   NAME                                   CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
-7b4c5c69bd59   xxx           0.06%     696.6MiB / 31.34GiB   2.17%     6.19MB / 1.39MB   3.73MB / 401kB    232
-e58b75d20ce1   yyy           0.11%     794.2MiB / 31.34GiB   2.47%     8.65MB / 6.03MB   5.19MB / 397kB    661
+CONTAINER ID    NAME    CPU %   MEM USAGE / LIMIT   MEM %   NET I/O             BLOCK I/O       PIDS
+7b4c5c69bd59    xxx     0.06%   696.6MiB / 31.34GiB 2.17%   6.19MB / 1.39MB     3.73MB / 401kB  232
+e58b75d20ce1    yyy     0.11%   794.2MiB / 31.34GiB 2.47%   8.65MB / 6.03MB     5.19MB / 397kB  661
 ```
 
 이런식으로 실시간으로 각 컨테이너별 cpu, memory, i/o 사용량을 알려준다.
