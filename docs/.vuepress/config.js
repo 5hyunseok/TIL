@@ -43,6 +43,10 @@ module.exports = {
         children: ["network/hsts"],
       },
       {
+        title: "docker",
+        children: ["docker/docker-stats"],
+      },
+      {
         title: "vscode",
         children: ["vscode/i18n-plugin"],
       },
