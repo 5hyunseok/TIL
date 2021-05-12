@@ -39,6 +39,10 @@ module.exports = {
     // sidebar: "auto",
     sidebar: [
       {
+        title: "javascript",
+        children: ["javascript/throttling-requests"],
+      },
+      {
         title: "network",
         children: ["network/hsts"],
       },
