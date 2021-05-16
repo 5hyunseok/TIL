@@ -40,7 +40,7 @@ module.exports = {
     sidebar: [
       {
         title: "javascript",
-        children: ["javascript/throttling-requests"],
+        children: ["js-test", "javascript/throttling-requests"],
       },
       {
         title: "network",
